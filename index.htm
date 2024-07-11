@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save URLs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Save URLs</h1>
+        <form id="urlForm">
+            <label for="urlInput">Enter URL:</label>
+            <input type="url" id="urlInput" required>
+
+            <label for="categorySelect">Select Category:</label>
+            <select id="categorySelect" required>
+                <option value="">Select a category</option>
+                <option value="Category1">Category 1</option>
+                <option value="Category2">Category 2</option>
+                <option value="Category3">Category 3</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
