@@ -20,7 +20,7 @@ document.getElementById('urlForm').addEventListener('submit', function (e) {
             json.push(data);
             const jsonData = JSON.stringify(json, null, 2);
 
-            fetch('save_data.php', {
+            fetch('save_data.js', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
